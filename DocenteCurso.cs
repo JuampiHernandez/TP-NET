@@ -7,6 +7,9 @@ namespace TP2_01
     public class DocenteCurso: BusinessEntity
     {
         private TiposCragos _cargo;
+        private int _IDCurso;
+        private int _IDDocente;
+
 
         public TiposCragos Cargo
         {
@@ -14,7 +17,6 @@ namespace TP2_01
             set { _cargo = value; }
         }
 
-        private int _IDCurso;
 
         public int IDCurso
         {
@@ -22,7 +24,6 @@ namespace TP2_01
             set { _IDCurso = value; }
         }
 
-        private int _IDDocente;
 
         public int IDDocente
         {

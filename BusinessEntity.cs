@@ -7,12 +7,14 @@ namespace TP2_01
     public class BusinessEntity
     {
         private int _ID;
+        private States _State;
+
         public int ID
         {
             get { return _ID; }
             set{ _ID = value;}
         }
-        private States _State;
+
         public States State
         {
             get { return _State; }
