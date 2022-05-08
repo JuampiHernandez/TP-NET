@@ -6,6 +6,12 @@ namespace TP2_01
 {
     public class Modulo:BusinessEntity
     {
-        private string descripcion;
+        private string _Descripcion;
+
+        public string Descripcion
+        {
+            get { return _Descripcion; }
+            set { _Descripcion = value; }
+        }
     }
 }
