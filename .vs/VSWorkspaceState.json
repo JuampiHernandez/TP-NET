@@ -1,13 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\bin",
-    "\\bin\\Debug",
-    "\\bin\\Release",
-    "\\obj",
-    "\\obj\\Debug",
-    "\\obj\\Release"
+    ""
   ],
-  "SelectedNode": "\\BusinessEntity.cs",
+  "SelectedNode": "\\Curso.cs",
   "PreviewInSolutionExplorer": false
 }
